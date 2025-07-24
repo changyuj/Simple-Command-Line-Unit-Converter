@@ -1,3 +1,27 @@
+#import tkinter libarary
+from tkinter import *
+
+#windows = serves as a container to hold or contain the widgets
+#widgets = GUI elements: buttons, textboxes, labels, images
+
+window = Tk() #instantiate an instance of a window
+window.geometry("420x400") #size of the window
+window.title("Unit Converter") #windows title
+
+label = Label(window, 
+              text=" Unit Converter Menu ",
+              font=('Arial',20,'bold'),
+              relief=RAISED,
+              bd=10)
+label.pack()
+
+#window.configure(bg="light green") #change background color
+
+window.mainloop() #place windows on computer screen, listen for events
+
+
+
+
 # --- Conversion Functions ---
 
 def celsius_to_fahrenheit(celsius):
@@ -72,7 +96,7 @@ def handle_length_conversion():
             print("Invalid choice. Please try again.")
 
 # --- Main Application Logic ---
-
+'''
 def main():
     """Main function to run the Unit Converter application."""
     while True:
@@ -93,6 +117,6 @@ def main():
             break
         else:
             print("Invalid choice. Please try again.")
-
+'''
 if __name__ == "__main__":
     main()
