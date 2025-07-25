@@ -51,7 +51,7 @@ Follow the on-screen prompts to select the type of conversion and enter the valu
 * Add more unit categories (e.g., weight, volume, speed).
 * Implement more robust input validation (e.g., ensure numerical input).
 * Allow batch conversions or conversions from a file.
-* Develop a graphical user interface (GUI) using libraries like Tkinter or PyQt.
+✓ Develop a graphical user interface (GUI) using libraries like Tkinter or PyQt.
 * Add a feature to list all supported units.
 
 ---
